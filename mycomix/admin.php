@@ -315,11 +315,11 @@ foreach ($iterator as $fileinfo) {
 			$dir_list[$dircounter]['remote'] = $mode_arr['remote'];
 			$dir_list[$dircounter]['checknew'] = $mode_arr['checknew'];
 		} else {
-			$dir_list[$dircounter]['admin'] = 1;
-			$dir_list[$dircounter]['group1'] = 1;
-			$dir_list[$dircounter]['group2'] = 1;
-			$dir_list[$dircounter]['remote'] = "n";
-			$dir_list[$dircounter]['checknew'] = "y";
+			$dir_list[$dircounter]['admin'] = 0;
+			$dir_list[$dircounter]['group1'] = 0;
+			$dir_list[$dircounter]['group2'] = 0;
+			$dir_list[$dircounter]['remote'] = "y";
+			$dir_list[$dircounter]['checknew'] = "n";
 		}
 		$dircounter++;
 	} else {
